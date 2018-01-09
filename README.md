@@ -1,8 +1,10 @@
 
-Steps 
+# react-practice
+# React Practice app for Beginners
 
- 1. npm install
+# Steps 
+
+ #1. npm install
  
  
- 2. npm start
- 
+ #2. npm start
