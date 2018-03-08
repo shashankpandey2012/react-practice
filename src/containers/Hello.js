@@ -6,8 +6,8 @@ import { isEqual, isEmpty } from 'lodash/lang';
 
 
 export default class Hello extends Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         console.log('Inside Constructor',this.props);
 
     }
@@ -16,9 +16,15 @@ export default class Hello extends Component {
 
     }
 
+    componentDidMount(){
+
+    }
+
+    componentWillReceiveProps(nextProps) {
+
+    }
+
     render() {
-        var self = this;
-        console.log('hello', self.props);
         return (
             <div>
                 Hey

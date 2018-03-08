@@ -22,7 +22,7 @@ export default class App extends Component {
 
         return (
             <div>
-                <h1>Header Component</h1>
+                <h1></h1>
                 {childrenWithProps}
             </div>
 
